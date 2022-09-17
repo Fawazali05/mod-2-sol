@@ -1,0 +1,110 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: paleturquoise;
+}
+
+.row{
+    width: 100%;
+
+}
+
+/* For desktops */
+
+@media (min-width: 992px)
+{
+    .col-lg-4{
+        width: 33.33%;
+        float: left;
+        position: relative;
+        padding: 1%;
+    }
+
+}
+
+/* for tablets */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .col-md-6{
+        width: 50%;
+        float: left;
+        position: relative;
+        padding: 1%;
+    }
+
+    .col-md-12{
+        width: 100%;
+        float: left;
+        position: relative;
+        padding: 1%;
+    }
+}
+
+/* for mobile phones */
+@media (max-width: 767px)
+{
+    .col-sm-12{
+        width: 100%;
+        float: left;
+        position: relative;
+        padding: 2%;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+section
+{
+    background-color: beige;
+    border: 1px solid black;
+    width:100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+p {
+    height: auto;
+    margin: 0px;
+    font-family: Helvetica;
+    color: black;
+    position: relative;
+    clear: both;
+    padding: 4%;
+    text-align: justify;
+  }
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.pink{
+    background-color: pink;
+    color: black;
+}
+
+.green
+{
+    background-color: greenyellow;
+    color: black;
+}
